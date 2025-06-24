@@ -12,7 +12,7 @@ public class Shoot : NPCBaseFSM
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         base.OnStateEnter(animator, stateInfo, layerIndex);
-        bulletSpawnPos = GameObject.Find("BulletSpawn").transform;
+        bulletSpawnPos = GameObject.Find("BulletSpawnRobot").transform;
         agent.ResetPath();//stop
     }
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

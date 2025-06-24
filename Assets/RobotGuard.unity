@@ -2441,6 +2441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739621ef854d3034c95bf98bfe300e1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximum: 10
   current: 10
 --- !u!1 &1529562156 stripped
 GameObject:
@@ -2479,7 +2480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1660511643}
   m_Layer: 0
-  m_Name: BulletSpawn
+  m_Name: BulletSpawnRobot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -34,7 +34,7 @@ public class Hide : NPCBaseFSM
         {
             Vector3 hideDir = World.Instance.GetHidingSpots()[i].transform.position - opponent.transform.position;
             Vector3 hidePos = World.Instance.GetHidingSpots()[i].transform.position + hideDir.normalized * 10;
-
+            hidePos.y = 1;
             if (Vector3.Distance(NPC.transform.position, hidePos) < dist)
             {
                 chosenSpot = hidePos;

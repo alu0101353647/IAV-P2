@@ -462,6 +462,8 @@ MonoBehaviour:
   accuracy: 3
   hitboxRadius: 1
   visDist: 20
+  prefabDebug: {fileID: 81784734768535028, guid: 0d6368071d14427428c87537f1da55e4,
+    type: 3}
 --- !u!1101 &8530126312579874949
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
